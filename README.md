@@ -13,7 +13,7 @@ A REST API developed in Java to manage logos and titles of people preferred prog
 
 🚧 I need to write this section!
 
-## ✔️ Technologies used
+## ✔️ Used technologies
 
 - `Java 18`
 - `Spring framework`
