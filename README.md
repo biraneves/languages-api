@@ -3,7 +3,6 @@
 ![Favorite languages API](https://raw.githubusercontent.com/biraneves/languages-api/main/src/main/resources/img/api-favorite-languages.png)
 
 ![Badge](https://img.shields.io/badge/Status-under%20development-orange)
-![Badge](https://img.shields.io/github/issues/biraneves/languages-api)
 ![Badge](https://img.shields.io/github/stars/biraneves/languages-api)
 
 ## 👓 Project description
@@ -19,6 +18,7 @@ A REST API developed in Java to manage logos and titles of people preferred prog
 - `Java 18`
 - `Spring framework`
 - `MongoDB`
+- `Heroku`
 - `IntelliJ IDEA`
 - `Object Orientation paradigm`
 
