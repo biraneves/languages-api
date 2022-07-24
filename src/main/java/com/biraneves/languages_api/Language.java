@@ -1,7 +1,13 @@
 package com.biraneves.languages_api;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="mainLanguages")
 public class Language {
 
+    @Id
+    private String id;
     private final String title;
     private final String image;
     private final int rankPosition;
@@ -12,6 +18,10 @@ public class Language {
         this.image = image;
         this.rankPosition = rankPosition;
 
+    }
+
+    public String getId() {
+        return id;
     }
 
     public String getTitle() {
